@@ -1,0 +1,21 @@
+<h1>Parcel Calculator</h1>
+<h2>Please Enter Below details for finding total cost</h2>
+<form action="/output" method="post">
+  <input type="number" name="height" placeholder="Parcel Height" ></br>
+  <input type="number" name="width" placeholder="Parcel Width" ></br>
+  <input type="number" name="length" placeholder="Parcel length" ></br>
+  <input type="number" name="weight" placeholder="Parcel Weight" ></br>
+  <input type='hidden' name='wrap' value='false' />
+  <input type='checkbox' name='wrap' value='true' />Gift Wrap</input></br>
+  <select name="parcel_type">
+    <option value="normal">Normal -take 1 week to 2 week</option>
+    <option value="express">Express -take 5 to 7 days</option>
+    <option value="super_express">Super Express -take 1 to 5 days</option>
+  </select></br>
+  <input type="number" name="distance" placeholder="Distance" ></br>
+
+
+
+
+  <input type="submit" name="" value="Submit">
+</form>
